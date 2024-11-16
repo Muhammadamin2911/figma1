@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 50;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 1;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header .logo ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .logo ul a {
+    color: #000;
+    font-size: 18px;
+}
+
+header .logo ul a:hover {
+    color: #DC780B;
+}
+
+header button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DC780B;
+    color: #fff;
+    font-size: 17px;
+}
+
+.container {
+    display: flex;
+    padding: 50px 50px 0 10%;
+    justify-content: space-between;
+}
+
+.container .container_l h1 {
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.container .container_l p {
+    font-size: 17px;
+    margin-top: 80px;
+    color: #282828;
+    font-weight: 500;
+}
+
+.container .container_l .btn {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+.container .container_l .btn button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #DC780B;
+    background-color: #fff;
+    color: #DC780B;
+}
+
+.container .container_l .btn button:hover {
+    background-color: #DC780B;
+    color: #fff;
+}
+
+.container .container_r img {
+    margin-top: -70px;
+}
+
+.features {
+    width: 100%;
+    height: 600px;
+
+    text-align: center;
+}
+
+.features p {
+    font-size: 18px;
+    letter-spacing: 10px;
+    color: red;
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.features .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.features .cards .card {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: transparent;
+
+}
+
+.features .cards .card h1 {
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.features .cards .card p {
+    margin-top: 30px;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.features .cards .card .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+
+.features .cards .card .image img {
+    margin-top: 15px;
+}
+
+.about {
+    width: 100%;
+    height: 600px;
+    padding: 50px 10%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.about .image {
+    width: 500px;
+    height: 500px;
+}
+.about .image img{
+    width: 500px;
+    height: 500px;
+}
+
+.about .about_text{
+width: 500px;
+padding-top: 50px;
+}
+.about .about_text span{
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #DC780B;
+}
+.about .about_text h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.about .about_text p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: gray;
+}
+.about .about_text button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.about .about_img{
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: -150px;
+}
+
+.menu{
+    width: 100%;
+    height: 200vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu span{
+    font-size: 25px;
+    color: #DC780B;
+}
+
+.menu h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.menu p{
+    width: 700px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.menu .cards{
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+        gap: 40px;
+}
+.menu .cards .card{
+    width: 360px;
+    height: 440px;
+    border: 1px solid gray;
+    border-radius: 70px 1px 1px 1px ;
+    background-color: #fff;
+    padding: 20px;
+}
+.menu .cards .card .image img{
+    width: 359px;
+    border-radius: 70px 1px 70px 1px ;
+    margin: -20px;      
+}
+
+.menu .cards .card .name{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .cards .card .name h1{
+    font-size: 25px;
+}
+.menu .cards .card p{
+    width: 300px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.menu .cards .card .plus{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.menu .cards .card .plus button{
+    width: 25px;
+    height: 25px;
+    background-color: #DC780B;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+.menu button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #DC780B;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #DC780B;
+}
+.menu button:hover{
+    background-color: #DC780B;
+    color: #fff;
+}
+.take_away{
+    width: 100%;
+    height: 70vh;
+    background-color: #FBF1E7;
+    padding: 60px 18%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.take_away .take_text span{
+font-size: 20px;
+letter-spacing: 2px;
+color: #DC780B;
+}
+.take_away .take_text h1{
+    width: 500px;
+    margin-top: 30px;
+}
+.take_away .take_text p{
+    font-size: 18px;
+    width: 550px;
+    margin-top: 30px;
+}
+
+.take_away .take_text .btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.take_away .take_text .btn button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.take_away .take_text .btn .a{
+    background-color: #000;
+    color: #fff;
+        border: none;
+
+}
+
+.take_away .take_text .btn button img{
+    width: 20px;
+}
+.take_away .take_img img{
+    border-radius: 60px;
+    box-shadow: 0 0 30px 2px #ffebd8 ;
+}
+.testimonial{
+    text-align: center;
+    padding: 10px 30%;
+    margin-top: 60px;
+}
+.testimonial .testimonial_text{
+    width: 600px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial span{
+    letter-spacing: 3px;
+    color: #DC780B;
+}
+.testimonial h1{
+    margin-top: 20px;
+}
+.testimonial p{
+    color: gray;
+    margin-top: 20px;
+}
+.testimonial .testimonial_text .text p{
+    color: #000;
+
+}
+.testimonial .testimonial_text .text img{
+    padding: 20px ;
+}
+.testimonial .testimonial_text .text span{
+    color: #000;
+}
+.testimonial .testimonial_text .text .font{
+color: gray;
+font-size: 15px;
+}
+
+.contact{
+    width: 100%;
+    height: 300px;
+    background-color: #ffebd8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.contact span{
+    margin-top: 50px;
+    color: #DC780B;
+    letter-spacing: 5px;
+}
+
+.contact h1{
+    width: 650px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact .send{
+    width: 504px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 50px;
+}
+.contact .send input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    padding: 5px 25px;
+}
+.contact .send button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 6px 6px 6px 6px;
+    background-color: #DC780B;
+    color: #fff;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 10%;
+    color: #c2c2c2;
+}
+footer .menuu{
+    margin-top: 0px;
+}
+
+footer .home{
+    margin-left: 150px;
+}
+footer ul {
+    line-height: 2;
+}
+footer ul li{
+    letter-spacing: 1.5px;
+}
